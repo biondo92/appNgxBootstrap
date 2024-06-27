@@ -1,1 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+
+$colore_testo_hover:yellow;
+
+@use 'bootstrap'with($navbar-light-hover-color: $colore_testo_hover)
